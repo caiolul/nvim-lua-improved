@@ -92,3 +92,8 @@ cmp.setup({
 })
 
 require("luasnip/loaders/from_vscode").load()
+-- Added python, bash and typescript lsp suport
+require'lspconfig'.pyright.setup{}
+require'lspconfig'.bashls.setup{}
+require'lspconfig'.tsserver.setup {}
+
