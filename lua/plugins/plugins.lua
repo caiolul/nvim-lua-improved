@@ -39,5 +39,6 @@ return require('packer').startup(function()
   use 'glepnir/dashboard-nvim'
   use 'voldikss/vim-floaterm'
   use 'psf/black'
+  use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
 end)
 
