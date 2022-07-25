@@ -39,6 +39,9 @@ return require('packer').startup(function()
   use 'glepnir/dashboard-nvim'
   use 'voldikss/vim-floaterm'
   use 'psf/black'
+  use 'folke/lsp-colors.nvim'
   use { 'sindrets/diffview.nvim', requires = 'nvim-lua/plenary.nvim' }
+  use 'folke/tokyonight.nvim'
+  use { "folke/trouble.nvim", requires = "kyazdani42/nvim-web-devicons"}
 end)
 
