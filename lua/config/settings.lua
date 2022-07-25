@@ -31,11 +31,11 @@ vim.cmd([[
 
 vim.cmd([[ set bg=dark ]])
 vim.cmd([[ set termguicolors ]])
-vim.cmd([[ colorscheme onedark ]])
+vim.cmd([[ colorscheme tokyonight ]])
 vim.cmd([[ let extension = expand('%:e') ]])
 
-require("onedark").setup{
-  style = "darker"
-}
+--require("onedark").setup{
+--  style = "darker"
+--}
 
-require("onedark").load()
+--require("onedark").load()

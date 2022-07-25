@@ -41,6 +41,6 @@ vim.cmd([[ nnoremap <C-f> :Telescope live_grep<CR> ]])
 
 -- Find files
 --
-vim.cmd([[ vnoremap <C-p> <Esc>:Telescope find_files <a> <CR> ]])
-vim.cmd([[ inoremap <C-p> <Esc>:Telescope find_files <a> <CR>1 ]])
-vim.cmd([[ nnoremap <C-p> :Telescope find_files <a> <CR> ]])
+vim.cmd([[ vnoremap <C-p> <Esc>:Telescope find_files<CR> ]])
+vim.cmd([[ inoremap <C-p> <Esc>:Telescope find_files<CR>1 ]])
+vim.cmd([[ nnoremap <C-p> :Telescope find_files<CR> ]])
